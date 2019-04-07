@@ -1,0 +1,29 @@
+{
+  "fitbit": {
+    "appUUID": "736b91d9-1db2-461a-aa45-8df075a6d686",
+    "appType": "app",
+    "appDisplayName": "Seizure Sensor",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#009688",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity",
+      "access_location",
+      "access_exercise"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Seizure Sensor"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.1.0"
+  }
+}

@@ -1,0 +1,21 @@
+.sensor-label {
+  font-family: Colfax-Light;
+  fill: white;
+  text-anchor: middle;
+  text-length: 32;
+  font-size: 35;
+  x: 50%;
+  y: $+5;
+}
+
+.sensor-data {
+  font-family: System-Light;
+  fill: white;
+  text-anchor: middle;
+  text-length: 70;
+  x: 50%;
+  y: 50%;
+}
+.background {
+  viewport-fill: red;
+}
